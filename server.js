@@ -10,4 +10,4 @@
     res.sendFile(path.join(__dirname+'/dist/<herokudemo>/index.html'));
     });
 
-    app.listen(process.env.PORT || 8080);
+    app.listen(8080);
